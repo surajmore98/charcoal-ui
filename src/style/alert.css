@@ -1,0 +1,33 @@
+@import url("color.css");
+
+.alert-wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    width: 100%;    
+}
+
+.alert-outline {
+    border: 1px solid;
+}
+
+.alert-fill {
+    color: var(--white);
+}
+
+.alert-icon {
+    padding: 5px;
+}
+
+.alert-title {
+    flex-grow: 1;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.alert-fill .alert-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
