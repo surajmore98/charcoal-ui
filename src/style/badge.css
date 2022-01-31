@@ -1,0 +1,50 @@
+@import url("color.css");
+
+.badge-wrapper {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-large {
+    min-width: 0.625rem;
+    height: 1.25rem;
+    padding: 0 5px;
+    font-size: 0.75rem;
+}
+
+.badge-regular {
+    min-width: 0.625rem;
+    height: 1rem;
+    padding: 0 3px;
+    font-size: 0.625rem;
+}
+
+.badge-small {
+    min-width: 0.5rem;
+    height: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.badge-wrapper .left {
+    left: 0;
+}
+
+.badge-wrapper .right {
+    right: 0;
+}
+
+.badge-wrapper .top {
+    top: 0;
+}
+
+.badge-wrapper .bottom {
+    bottom: 5px;
+}
