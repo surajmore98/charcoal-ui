@@ -1,0 +1,88 @@
+@import url("./color.css");
+
+.card {
+  width: 300px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+/* container of card content  */
+.card-content {
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+}
+
+.card-content:hover {
+  background-color: var(--charcoal-white);
+}
+
+.card-content-horizontal {
+    flex-direction: row;
+    gap: 2px;
+}
+/* header */
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.325rem;
+    padding-top: 0.625rem;
+}
+
+.primary-header {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.secondary-header {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+/* card information */
+.card-info {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0.325rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.75px;
+    font-weight: 300;
+}
+
+/* button group */
+.card-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.625rem 0.325rem;
+}
+
+/* left button group */
+.card-btn-group-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+/* right button group */
+.card-btn-group-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+}
+
+/* header on image */
+.card-header-fixed {
+    position: absolute;
+    bottom: 0;
+}
