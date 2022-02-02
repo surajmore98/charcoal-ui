@@ -32,6 +32,7 @@
 }
 
 .error-msg {
+    color: var(--error-dark);
     font-size: 0.625rem;
 }
 

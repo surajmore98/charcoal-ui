@@ -1,11 +1,11 @@
 @import url("./color.css");
 
 .card {
-  width: 250px;
-  border-radius: 4px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  line-height: 1.2;
+  width: 20rem;
 }
 
 /* container of card content  */
@@ -15,16 +15,17 @@
     position: relative;
 }
 
-.card-content:hover {
-  background-color: var(--charcoal-white);
+.card:hover {
+    box-shadow: 0 0.5rem 0.25rem var(--charcoal-black-blur);
 }
 
 .card-content-horizontal {
     flex-direction: row;
     gap: 2px;
 }
+
 /* header */
-.card-header {
+.card-content-header {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
@@ -34,24 +35,33 @@
 
 .primary-header {
     font-size: 1rem;
-    line-height: 1.125rem;
     letter-spacing: 2px;
     font-weight: 700;
 }
 
 .secondary-header {
     font-size: 0.875rem;
-    line-height: 1rem;
     letter-spacing: 1.5px;
     font-weight: 500;
 }
 
+/* header on image */
+.card-content-header-fixed {
+    position: absolute;
+    bottom: 0;
+}
+
+/* card media */
+.card-content-media {
+    display: block;
+}
+
+
 /* card information */
-.card-info {
+.card-content-info {
     font-size: 0.75rem;
     margin: 0;
     padding: 5px;
-    line-height: 0.875rem;
     letter-spacing: 0.75px;
     font-weight: 300;
 }
@@ -60,17 +70,11 @@
 .card-btn-group {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     padding: 10px 5px;
 }
 
-/* left button group */
-.card-btn-group-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
-}
 
 /* right button group */
 .card-btn-group-right {
@@ -78,11 +82,4 @@
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
-    width: 40%;
-}
-
-/* header on image */
-.card-header-fixed {
-    position: absolute;
-    bottom: 0;
 }
