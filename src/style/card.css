@@ -1,0 +1,86 @@
+@import url("./color.css");
+
+.card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  width: 20rem;
+}
+
+/* container of card content  */
+.card-content {
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 0.25rem var(--charcoal-black-blur);
+}
+
+.card-content-horizontal {
+    flex-direction: row;
+    gap: 2px;
+}
+
+/* header */
+.card-content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.625rem 0.5rem  0.5rem 1rem;
+}
+
+.primary-header {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.secondary-header {
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+/* header on image */
+.card-content-header-fixed {
+    position: absolute;
+    bottom: 0;
+}
+
+/* card media */
+.card-content-media {
+    display: block;
+}
+
+
+/* card information */
+.card-content-info {
+    font-size: 0.875rem;
+    margin: 0;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    letter-spacing: 0.75px;
+    font-weight: 300;
+}
+
+/* button group */
+.card-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1rem;
+}
+
+
+/* right button group */
+.card-btn-group-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
