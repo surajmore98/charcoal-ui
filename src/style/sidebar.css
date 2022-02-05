@@ -1,0 +1,35 @@
+.side-bar {
+    background-color: var(--charcoal-black-light);
+    border: 0;
+    width: 20vw;
+    min-height: 85vh;
+    overflow-y: auto;
+    margin: 0;
+}
+
+.side-bar-section {
+    margin: 1rem;
+}
+
+.side-bar-header {
+    color: var(--charcoal-gray);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.side-bar-content {
+    cursor: pointer;
+    color: var(--charcoal-black);
+    font-size: 0.875rem;
+    font-weight: 300;
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+
+.side-bar-content:hover {
+    background-color: var(--charcoal-gray);
+    border-radius: 0.25rem;
+    color: var(--charcoal-white);
+    transition: 0.2s;
+}
