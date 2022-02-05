@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 85vh;
-    width: 80vw;
+    min-width: 80vw;
 }
 
 .main-content-center {
