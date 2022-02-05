@@ -5,7 +5,10 @@
 @import url("button.css");
 @import url("card.css");
 @import url("color.css");
-@import url("common.css");
+@import url("element.css");
+@import url("font.css");
 @import url("image.css");
 @import url("input.css");
 @import url("margin.css");
+@import url("navbar.css");
+@import url("sidebar.css");
