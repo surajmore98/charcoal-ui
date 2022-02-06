@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Alert</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <!-- <i class="material-icons logo-icon">menu</i> -->
+                <a href="../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Install</a>
+                </li>
+            </ul>
+            <!-- <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Padding</a>
+                </li>
+            </ul> -->
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Badge</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Alert
+                </div>
+                <div class="component-info">
+                    provides feedback on user's action with appropriate message which is customizable.<br/>
+                    <span class="info">variants are: basic | outlined | filled</span>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Basic Alerts:
+                    </div>
+                    <div class="component-info">
+                        basic alert comes with message and color vaiant depending on nature of alert.
+                    </div>
+                    <div class="component-content-section">
+                        <div class="alert-wrapper bg-error-light m-sm">
+                            <i class="material-icons alert-icon error">error_outline</i>
+                            <div class="alert-title error-dark">This is an error alert — check it out!</div>
+                        </div>
+                        <div class="alert-wrapper bg-warning-light m-sm">
+                            <i class="material-icons alert-icon warning">warning</i>
+                            <div class="alert-title warning-dark">This is a warning alert — check it out!</div>
+                        </div>
+                        <div class="alert-wrapper bg-info-light m-sm">
+                            <i class="material-icons alert-icon info">info</i>
+                            <div class="alert-title info-dark">This is an info alert — check it out!</div>
+                        </div>       
+                        <div class="alert-wrapper bg-success-light m-sm">
+                            <i class="material-icons alert-icon success">check</i>
+                            <div class="alert-title success-dark">This is a success alert — check it out!</div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="alert-wrapper bg-warning-light"&gt;
+    &lt;i class="material-icons alert-icon warning"&gt;warning&lt;/i&gt;
+    &lt;div class="alert-title warning-dark"&gt;This is a warning alert — check it out!&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <!-- Outlined Alert -->
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                        Outlined Alerts:
+                    </div>
+                    <div class="component-info">
+                        Outlined alert comes with message and color vaiant of border depending on nature of alert.<br/>
+                        <span class="info">border color and text color is customizable with color classes as per examples</span>
+                    </div>
+                    <div class="component-content-section">
+                        <div class="alert-wrapper alert-outline border-error m-sm">
+                            <i class="material-icons alert-icon error">error_outline</i>
+                            <div class="alert-title error-dark">This is an error alert — check it out!</div>
+                        </div>
+                        <div class="alert-wrapper alert-outline border-warning m-sm">
+                            <i class="material-icons alert-icon warning">warning</i>
+                            <div class="alert-title warning-dark">This is a warning alert — check it out!</div>
+                        </div>
+                        <div class="alert-wrapper alert-outline border-info m-sm">
+                            <i class="material-icons alert-icon info">info</i>
+                            <div class="alert-title info-dark">This is an info alert — check it out!</div>
+                        </div>       
+                        <div class="alert-wrapper alert-outline border-success m-sm">
+                            <i class="material-icons alert-icon success">check</i>
+                            <div class="alert-title success-dark">This is a success alert — check it out!</div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;!-- alert-outline is variant class for alert and border-success is border color varient
+    success is text color variant class--&gt;
+&lt;div class="alert-wrapper alert-outline border-success"&gt;
+    &lt;i class="material-icons alert-icon success"&gt;check&lt;/i&gt;
+    &lt;div class="alert-title success-dark"&gt;This is a success alert — check it out!&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+            </div>
+            <!-- Filled Alert -->
+            <div class="divider"></div>
+            <div class="component-content">
+                <div class="component-title component-content-title">
+                    Filled Alerts:
+                </div>
+                <div class="component-info">
+                    Filled alert comes with message and color vaiant of border depending on nature of alert.<br/>
+                    <span class="info">fill color and text color is customizable with color classes as per examples</span>
+                </div>
+                <div class="component-content-section">
+                    <div class="alert-wrapper alert-fill bg-error m-sm">
+                        <i class="material-icons alert-icon">error_outline</i>
+                        <div class="alert-title">This is an error alert — check it out!</div>
+                    </div>
+                    <div class="alert-wrapper alert-fill bg-warning m-sm">
+                        <i class="material-icons alert-icon">warning</i>
+                        <div class="alert-title">This is a warning alert — check it out!</div>
+                    </div>
+                    <div class="alert-wrapper alert-fill bg-info m-sm">
+                        <i class="material-icons alert-icon">info</i>
+                        <div class="alert-title">This is an info alert — check it out!</div>
+                    </div>       
+                    <div class="alert-wrapper alert-fill bg-success m-sm">
+                        <i class="material-icons alert-icon">check</i>
+                        <div class="alert-title">This is a success alert — check it out!</div>
+                    </div>
+                </div>
+                <div class="component-content-section">
+                    <pre>
+                        <code class="language-html">
+&lt;!-- alert-fill is variant class for alert and bg-success is fill color varient
+success is text color variant class--&gt;
+&lt;div class="alert-wrapper alert-fill bg-success"&gt;
+&lt;i class="material-icons alert-icon success"&gt;check&lt;/i&gt;
+&lt;div class="alert-title"&gt;This is a success alert — check it out!&lt;/div&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+        </div>
+        </section>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

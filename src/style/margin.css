@@ -2,14 +2,22 @@
     margin: 0;
 }
 
-.m5 {
-    margin: 5px;
+.m-sm {
+    margin: 0.25rem;
 }
 
-.m10 {
-    margin: 10px;
+.m-md {
+    margin: 0.5rem;
 }
 
-.m15 {
-    margin: 15px;
+.m-lg {
+    margin: 0.75rem;
+}
+
+.m-xl {
+    margin: 1rem;
+}
+
+.ml-auto {
+    margin-left: auto;
 }
