@@ -18,6 +18,10 @@
     margin: 1rem;
 }
 
+.mt-sm {
+    margin-top: 0.25rem;
+}
+
 .ml-auto {
     margin-left: auto;
 }

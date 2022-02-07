@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Badge</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <!-- <i class="material-icons logo-icon">menu</i> -->
+                <a href="../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link">Install</a>
+                </li>
+            </ul>
+            <!-- <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Padding</a>
+                </li>
+            </ul> -->
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a class="side-bar-link">Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./button.html">Button</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./card.html">Card</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./image.html">Image</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./input.html">Input</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Badge
+                </div>
+                <div class="component-info">
+                    Badge is used to show any notification count or notification indicator
+                    or status of the account<br/>
+                    <span class="info">variants are: badge-lg | badge-md | badge-sm</span>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Large Badges:
+                    </div>
+                    <div class="component-info">
+                        large badge with position varients.</br>
+                        <span class="info">variants are: left | right | top | bottom</span>
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-lg"/>
+                            <div class="badge badge-round badge-lg top left bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-lg"/>
+                            <div class="badge badge-round badge-lg top right bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-lg"/>
+                            <div class="badge badge-round badge-lg bottom left bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-lg"/>
+                            <div class="badge badge-round badge-lg bottom right bg-success white">5</div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="badge-wrapper"&gt;
+    &lt;img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-lg"/&gt;
+    &lt;div class="badge badge-round badge-lg top left bg-success white"&gt;5&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Medium Badges:
+                    </div>
+                    <div class="component-info">
+                        Medium badge with position varients.</br>
+                        <span class="info">variants are: left | right | top | bottom</span>
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-md"/>
+                            <div class="badge badge-round badge-md top left bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-md"/>
+                            <div class="badge badge-round badge-md top right bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-md"/>
+                            <div class="badge badge-round badge-md bottom left bg-success white">5</div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-md"/>
+                            <div class="badge badge-round badge-md bottom right bg-success white">5</div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="badge-wrapper"&gt;
+    &lt;img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-md"/&gt;
+    &lt;div class="badge badge-round badge-md top left bg-success white"&gt;5&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Small Badges:
+                    </div>
+                    <div class="component-info">
+                        Small badge with position varients. generally used to show status of user.</br>
+                        <span class="info">variants are: left | right | top | bottom</span>
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-sm"/>
+                            <div class="badge badge-round badge-sm top left bg-success white"></div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-sm"/>
+                            <div class="badge badge-round badge-sm top right bg-info white"></div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-sm"/>
+                            <div class="badge badge-round badge-sm bottom left bg-warning white"></div>
+                        </div>
+                        <div class="badge-wrapper">
+                            <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-sm"/>
+                            <div class="badge badge-round badge-sm bottom right bg-error white"></div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="badge-wrapper"&gt;
+    &lt;img src="../../resource/avatar/avatar-icon.png" alt="avatar-1" class="avatar avatar-sm"/&gt;
+    &lt;div class="badge badge-round badge-sm top left bg-success white"&gt;5&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>

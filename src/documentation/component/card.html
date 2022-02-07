@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Card</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <!-- <i class="material-icons logo-icon">menu</i> -->
+                <a href="../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link">Install</a>
+                </li>
+            </ul>
+            <!-- <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Padding</a>
+                </li>
+            </ul> -->
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a class="side-bar-link">Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./button.html">Button</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./card.html">Card</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./image.html">Image</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./input.html">Input</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Card
+                </div>
+                <div class="component-info">
+                    <p>Cards consist content and actions about a single subject.</p>
+                    <p>variants are: <span class="info"> card | card-horizontal</span></p>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Text Only Card:
+                    </div>
+                    <div class="component-content-section component-content-section-row bg-charcoal-white">
+                        <div class="card bg-white">
+                            <div class="card-content">
+                                <div class="card-content-header"> 
+                                    <span class="primary-header charcoal-black">Our Changing Planet</span>
+                                    <span class="secondary-header charcoal-black">by Kurt Wagner</span>
+                                </div>
+                                <p class="card-content-info charcoal-black">
+                                    Visit ten places on our planet that are undergoing the biggest changes today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="card-content"&gt;
+&lt;div class="card-content-header"&gt; 
+    &lt;span
+     class="primary-header charcoal-black"&gt;
+      Our Changing Planet
+    &lt;/span&gt;
+    &lt;span
+     class="secondary-header charcoal-black"&gt;
+        by Kurt Wagner
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p
+ class="card-content-info charcoal-black"&gt;
+    Visit ten places on our planet that are 
+    undergoing the biggest changes today.
+&lt;/p&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Card with Action:
+                    </div>
+                    <div class="component-content-section component-content-section-row bg-charcoal-white">
+                        <div class="card bg-white">
+                            <div class="card-content">
+                                <img src="../../resource/card/image.png" class="image" alt="card-image"/>
+                                <div class="card-content-header"> 
+                                    <span class="primary-header charcoal-black">Our Changing Planet</span>
+                                    <span class="secondary-header charcoal-black">by Kurt Wagner</span>
+                                </div>
+                                <p class="card-content-info charcoal-black">
+                                    Visit ten places on our planet that are undergoing the biggest changes today.
+                                </p>
+                            </div>
+                            <div class="card-btn-group">
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 1</button>
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="card bg-white"&gt;
+&lt;div class="card-content"&gt;
+    &lt;img src="../../resource/card/image.png"
+    class="image" alt="card-image"/&gt;
+    &lt;div class="card-content-header"&gt; 
+        &lt;span
+        class="primary-header charcoal-black"&gt;
+            Our Changing Planet
+        &lt;/span&gt;
+        &lt;span
+        class="secondary-header charcoal-black"&gt;
+            by Kurt Wagner
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;p
+    class="card-content-info charcoal-black"&gt;
+        Visit ten places on our planet that are
+        undergoing the biggest changes today.
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-group"&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 1
+    &lt;/button&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 2
+    &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Card With Overlay Header:
+                    </div>
+                    <div class="component-content-section component-content-section-row bg-charcoal-white">
+                        <div class="card bg-white">
+                            <div class="card-content">
+                                <img src="../../resource/card/image.png" class="image" alt="card-image"/>
+                                <div class="card-content-header card-content-header-fixed"> 
+                                    <span class="primary-header white">Our Changing Planet</span>
+                                    <span class="secondary-header white">by Kurt Wagner</span>
+                                </div>
+                            </div>
+                            <div class="card-btn-group">
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 1</button>
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="card bg-white"&gt;
+&lt;div class="card-content"&gt;
+    &lt;img src="../../resource/card/image.png"
+    class="image" alt="card-image"/&gt;
+    &lt;div class="card-content-header card-content-header-fixed"&gt; 
+        &lt;span
+        class="primary-header white"&gt;
+            Our Changing Planet
+        &lt;/span&gt;
+        &lt;span
+        class="secondary-header white"&gt;
+            by Kurt Wagner
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-group"&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 1
+    &lt;/button&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 2
+    &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Horizontal Card:
+                    </div>
+                    <div class="component-content-section component-content-section-row bg-charcoal-white">
+                        <div class="card bg-white">
+                            <div class="card-content card-content-horizontal">
+                                <img src="../../resource/card/image.png" class="image image-sm" alt="card-image"/>
+                                <div class="card-content-header card-content--header-fixed"> 
+                                    <span class="primary-header charcoal-black">Our Changing Planet</span>
+                                    <span class="secondary-header charcoal-black">by Kurt Wagner</span>
+                                </div>
+                            </div>
+                            <div class="card-btn-group">
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 1</button>
+                                <button class="btn btn-sm bg-white charcoal-black">ACTION 2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="card bg-white"&gt;
+&lt;div class="card-content card-content-horizontal"&gt;
+    &lt;img src="../../resource/card/image.png"
+    class="image  image-sm" alt="card-image"/&gt;
+    &lt;div class="card-content-header card-content-header-fixed"&gt; 
+        &lt;span
+        class="primary-header charcoal-black"&gt;
+            Our Changing Planet
+        &lt;/span&gt;
+        &lt;span
+        class="secondary-header charcoal-black"&gt;
+            by Kurt Wagner
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-group"&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 1
+    &lt;/button&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 2
+    &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Card with Badge:
+                    </div>
+                    <div class="component-content-section component-content-section-row bg-charcoal-white">
+                        <div class="badge-wrapper">
+                            <div class="card bg-white">
+                                <div class="card-content">
+                                    <img src="../../resource/card/image.png" class="image" alt="card-image"/>
+                                    <div class="card-content-header"> 
+                                        <span class="primary-header charcoal-black">Our Changing Planet</span>
+                                        <span class="secondary-header charcoal-black">by Kurt Wagner</span>
+                                    </div>
+                                    <p class="card-content-info charcoal-black">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </p>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-sm bg-white charcoal-black">ACTION 1</button>
+                                    <button class="btn btn-sm bg-white charcoal-black">ACTION 2</button>
+                                    <button class="btn btn-sm bg-white charcoal-black">ACTION 1</button>
+                                </div>
+                            </div>
+                            <div class="badge badge-lg top left bg-success white">Discount</div>
+                        </div>    
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="card bg-white"&gt;
+&lt;div class="card-content"&gt;
+    &lt;img src="../../resource/card/image.png"
+    class="image" alt="card-image"/&gt;
+    &lt;div class="card-content-header"&gt; 
+        &lt;span
+        class="primary-header charcoal-black"&gt;
+            Our Changing Planet
+        &lt;/span&gt;
+        &lt;span
+        class="secondary-header charcoal-black"&gt;
+            by Kurt Wagner
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;p
+    class="card-content-info charcoal-black"&gt;
+        Visit ten places on our planet that are
+        undergoing the biggest changes today.
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-group"&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 1
+    &lt;/button&gt;
+    &lt;button
+    class="btn btn-sm bg-white charcoal-black"&gt;
+        ACTION 2
+    &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>
