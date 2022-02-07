@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Input</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <!-- <i class="material-icons logo-icon">menu</i> -->
+                <a href="../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link">Install</a>
+                </li>
+            </ul>
+            <!-- <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Padding</a>
+                </li>
+            </ul> -->
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a class="side-bar-link">Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./button.html">Button</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./card.html">Card</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./image.html">Image</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./input.html">Input</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Input
+                </div>
+                <div class="component-info">
+                    <p>Input allow users to enter value into forms.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Text Field:
+                    </div>
+                    <div class="component-content-section">
+                        <div class="form-field">
+                            <label class="input-label charcoal-black">Label</label>
+                            <div class="form-control">
+                                <input type="text" class="input input-text" placeholder="label"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="form-field"&gt;
+    &lt;label class="input-label charcoal-black"&gt;Label&lt;/label&gt;
+    &lt;div class="form-control"&gt;
+        &lt;input type="text" class="input" placeholder="label"/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Text Field with Validation Message:
+                    </div>
+                    <div class="component-content-section">
+                        <div class="form-field">
+                            <label class="input-label charcoal-black">Label</label>
+                            <div class="form-control">
+                                <input type="text" class="input input-text" placeholder="label"/>
+                                <p class="error-msg error">label is missing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="form-field"&gt;
+    &lt;label class="input-label charcoal-black"&gt;Label&lt;/label&gt;
+    &lt;div class="form-control"&gt;
+        &lt;input type="text" class="input" placeholder="label"/&gt;
+    &lt;/div&gt;
+    &lt;p class="error-msg error"&gt;label is missing&lt;/p&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Radio Button:
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <div class="form-field form-field-horizontal">
+                            <div class="form-control-horizontal">
+                                <input type="radio"  class="input-radio" name="Label" value="Label">
+                                <label class="input-label">Label</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="radio"  class="input-radio" name="Label" value="Label">
+                                <label class="input-label">Label</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="radio"  class="input-radio" name="Label" value="Label">
+                                <label class="input-label">Label</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="radio"  class="input-radio" name="Label" value="Label">
+                                <label class="input-label">Label</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="radio"  class="input-radio" name="Label" value="Label">
+                                <label class="input-label">Label</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="form-control-horizontal"&gt;
+    &lt;input type="radio"  class="input-radio" name="Label" value="Label"&gt;
+    &lt;label class="input-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       checkbox:
+                    </div>
+                    <div class="component-content-section component-content-section-horizontal">
+                        <div class="form-field form-field-horizontal">
+                            <div class="form-control-horizontal">
+                                <input type="checkbox" name="Label" value="Label">
+                                <label class="input-label">checkbox</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="checkbox" name="Label" value="Label">
+                                <label class="input-label">checkbox</label>
+                            </div>
+                            <div class="form-control-horizontal">
+                                <input type="checkbox" name="Label" value="Label">
+                                <label class="input-label">checkbox</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;div class="form-control-horizontal"&gt;
+    &lt;input type="checkbox"  class="input-radio" name="Label" value="Label"&gt;
+    &lt;label class="input-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>
