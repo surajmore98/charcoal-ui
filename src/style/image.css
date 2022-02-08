@@ -2,12 +2,21 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: none;
 }
 
-.image-md {
+.image-half {
     width: 50%;
 }
 
-.image-sm {
+.image-quarter {
     width: 25%;
+}
+
+.image-round-square {
+    border-radius: 0.5rem;
+}
+
+.image-round {
+    border-radius: 50%;
 }

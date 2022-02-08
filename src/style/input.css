@@ -7,12 +7,12 @@
     justify-content: center;
     height: auto;
     width: 85%;
-    color: var(--charcoal-black);
 }
 
 .input-label {
     font-weight: 500;
     padding: 0.25rem;
+    color: var(--charcoal-black);
 }
 
 .input {
@@ -20,24 +20,30 @@
     border: 1px solid var(--charcoal-gray);
     border-radius: 0.25rem;
     color: var(--charcoal-black);
-    font-size: 1rem;
     height: auto;
-    letter-spacing: 1px;
-    line-height: 1rem;
     width: 100%;
     padding: 0.5rem;
+    outline: none;
+}
+
+.input-text {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1rem;
 }
 
 .input-radio {
     margin: 0;
 }
 
-.input:focus {
-    border: 2px solid var(--charcoal-black);
+.input-text:focus,
+.input-text:hover,
+.input-text:active {
+    outline: 1px solid var(--charcoal-black);
 }
 
 .error-msg {
-    color: var(--error-dark);
+    color: var(--error);
     font-size: 0.75rem;
 }
 
