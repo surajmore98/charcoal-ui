@@ -7,27 +7,35 @@
 .badge {
     position: absolute;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-round {
+    position: absolute;
+    border: none;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.badge-large {
+.badge-lg {
     min-width: 0.625rem;
     height: 1.25rem;
     padding: 0 5px;
     font-size: 0.75rem;
 }
 
-.badge-regular {
+.badge-md {
     min-width: 0.625rem;
     height: 1rem;
     padding: 0 3px;
     font-size: 0.625rem;
 }
 
-.badge-small {
+.badge-sm {
     min-width: 0.5rem;
     height: 0.5rem;
     font-size: 0.5rem;

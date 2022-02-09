@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Card</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <a href="../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link">Install</a>
+                </li>
+            </ul>
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a>Padding</a>
+                </li>
+            </ul>
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a class="side-bar-link">Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./button.html">Button</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./card.html">Card</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./image.html">Image</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./input.html">Input</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Button
+                </div>
+                <div class="component-info">
+                    <p>Buttons allow users to take actions, and make choices, with a single tap.</p>
+                    <p>types are: <span class="info">btn | btn-outline | btn-round | btn-float</span></p>
+                    <p>button can be customize with text color and background color with utlity
+                    classes of color like <span class="info"> .info </span> and 
+                    <span class="info"> .bg-info</span> respectivly.<br/></p>
+                    <p>size varients are : <span class="info"> btn-lg | btn-lg | top | bottom</span></p>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Primary Button:
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <button class="btn btn-sm bg-white success">Success</button>
+                        <button class="btn btn-sm white bg-success">Success</button>
+                        <button class="btn btn-sm bg-white info">Information</button>
+                        <button class="btn btn-sm white bg-info">Information</button>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;button class="btn btn-sm bg-white success"&gt;
+    Success
+&lt;/button&gt;
+&lt;button class="btn btn-sm white bg-success"&gt;
+    Success
+&lt;/button&gt;
+&lt;button class="btn btn-sm bg-white info"&gt;
+    Information
+&lt;/button&gt;
+&lt;button class="btn btn-sm white bg-info"&gt;
+    Information
+&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Outlined Button:
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <button class="btn btn-outline bg-white border-success btn-sm success-dark">Success</button>
+                        <button class="btn btn-outline bg-white border-error btn-sm error-dark">Error</button>
+                        <button class="btn btn-outline bg-white border-info btn-sm info-dark">Information</button>
+                        <button class="btn btn-outline bg-white border-warning btn-sm warning-dark">Warning</button>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;button 
+class="btn btn-outline bg-white border-success
+btn-sm success-dark"&gt;
+    Success
+&lt;/button&gt;
+&lt;button
+class="btn btn-outline bg-white border-error
+btn-sm error-dark"&gt;
+    Error
+&lt;/button&gt;
+&lt;button 
+class="btn btn-outline bg-white border-info
+btn-sm info-dark"&gt;
+    Information
+&lt;/button&gt;
+&lt;button 
+class="btn btn-outline bg-white border-warning
+btn-sm warning-dark"&gt;
+    Warning
+&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                        Round Button:
+                     </div>
+                     <div class="component-content-section component-content-section-row">
+                         <button class="btn btn-round btn-outline bg-white border-success  success-dark"><i class="material-icons">mail</i></button>
+                         <button class="btn btn-round bg-white  error-dark"><i class="material-icons">mail</i></button>
+                         <button class="btn btn-round btn-outline bg-white border-info  info-dark"><i class="material-icons">mail</i></button>
+                         <button class="btn btn-round bg-white  warning"><i class="material-icons">mail</i></button>
+                     </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;button class="btn btn-round btn-outline bg-white
+border-success btn-sm success-dark"&gt;
+    &lt;i class="material-icons"&gt;mail&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-round bg-white
+btn-sm error-dark"&gt;
+    &lt;i class="material-icons"&gt;mail&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-round btn-outline bg-white
+border-info btn-sm info-dark"&gt;
+    &lt;i class="material-icons"&gt;mail&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-round bg-white btn-sm
+warning"&gt;
+    &lt;i class="material-icons"&gt;mail&lt;/i&gt;
+&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Float Button:
+                    </div>
+                    <div class="component-content-section component-content-section-row">
+                        <button class="btn btn-float bg-charcoal-black-light border-success btn-sm success-dark">Success</button>
+                        <button class="btn btn-float bg-charcoal-black-light border-error btn-sm error-dark">Error</button>
+                        <button class="btn btn-float bg-charcoal-black-light border-info btn-sm info-dark">Information</button>
+                        <button class="btn btn-float bg-charcoal-black-light border-warning btn-sm warning-dark">Warning</button>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;button 
+class="btn btn-float bg-charcoal-black-light border-success
+btn-sm success-dark"&gt;
+    Success
+&lt;/button&gt;
+&lt;button
+class="btn btn-float bg-charcoal-black-light border-error
+btn-sm error-dark"&gt;
+    Error
+&lt;/button&gt;
+&lt;button 
+class="btn btn-float bg-charcoal-black-light border-info
+btn-sm info-dark"&gt;
+    Information
+&lt;/button&gt;
+&lt;button 
+class="btn btn-float bg-charcoal-black-light border-warning
+btn-sm warning-dark"&gt;
+    Warning
+&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>

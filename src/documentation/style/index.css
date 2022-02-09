@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 85vh;
-    min-width: 80vw;
+    min-width: 75vw;
 }
 
 .main-content-center {
@@ -129,4 +129,5 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }

@@ -16,6 +16,7 @@
     --success: #4CAF50;
     --success-light: #edf7ed;
     --charcoal-black-light: #e8e8e888;
+    --charcoal-white-light: #eaeaea;
     --phlox: #D63AF9;
 }
 
@@ -84,6 +85,10 @@
 
 .bg-success-light {
     background-color: var(--success-light);
+}
+
+.bg-charcoal-white-light {
+    background-color: var(--charcoal-white-light);
 }
 
 /* color classes */
