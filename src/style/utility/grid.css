@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+}
+
+.grid-col-sm {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-md {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-lg {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 700px) {
+    .grid-col-sm {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .grid-col-md {
+        grid-template-columns: 1fr;
+    }
+    
+    .grid-co-lg {
+        grid-template-columns: 1fr;
+    }
+}
