@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../documentation/style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Charcoal UI | Avatar</title>
+    <title>Charcoal UI | Rating</title>
 </head>
 <body>
     <nav class="nav-bar">
@@ -85,68 +85,68 @@
         <section class="main-content">
             <div class="component-container">
                 <div class="component-title">
-                    Avatar
+                    Rating
                 </div>
                 <div class="component-info">
-                    Avatar is used show images of profiles.<br/>
-                    <span class="info">variants are: Image | Letter</span>
+                    Rating is used to rate any product commonly.
                 </div>
                 <div class="divider"></div>
                 <div class="component-content">
-                    <div class="component-title component-content-title">
-                       Image Alerts:
-                    </div>
-                    <div class="component-info">
-                        Image alert comes with three varient based on size<br/>
-                        <span class="info">'avatar-lg' | 'avatar-md' | 'avatar-sm'</span>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-lg"/>
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-md"/>
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-sm"/>
+                    <div class="component-content-section">
+                        <div class="rating-wrapper">
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                        </div>
+                        <div class="rating-wrapper">
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                        </div>
+                        <div class="rating-wrapper">
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon fill">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                            <span class="material-icons rating-icon">star</span>
+                        </div>
                     </div>
                     <div class="component-content-section">
                         <pre>
                             <code class="language-html">
-&lt;img 
-    src="../../resource/avatar/avatar-icon.png"
-    alt="avatar-1" 
-    class="avatar avatar-lg"/&gt;  
+&lt;div class="rating-wrapper"&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="rating-wrapper"&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="rating-wrapper"&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon fill"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+    &lt;span class="material-icons rating-icon"&gt;star&lt;/span&gt;
+&lt;/div&gt;
                             </code>
-                        </pre>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <!-- Letter Avatar -->
-                <div class="component-content">
-                    <div class="component-title component-content-title">
-                        Letter Alerts:
-                    </div>
-                    <div class="component-info">
-                        Letter alert comes with three varient based on size<br/>
-                        <span class="info">'avatar-lg' | 'avatar-md' | 'avatar-sm'</span>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <div class="avatar avatar-letter avatar-lg">A</div>
-                        <div class="avatar avatar-letter avatar-md">A</div>
-                        <div class="avatar avatar-letter avatar-sm">A</div>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <div class="avatar avatar-letter avatar-lg">AM</div>
-                        <div class="avatar avatar-letter avatar-md">AM</div>
-                        <div class="avatar avatar-letter avatar-sm">AM</div>
-                    </div>
-                    <div class="component-content-section">
-                        <pre>
-                            <code class="language-html">
-&lt;div class="avatar avatar-letter avatar-lg">AM&lt;/div&gt;                            </code>
                         </pre>
                     </div>
                 </div>
             </div>
         </section>
     </div>        
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
 </body>
 </html>

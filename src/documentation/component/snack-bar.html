@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../documentation/style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Charcoal UI | Avatar</title>
+    <title>Charcoal UI | Snackbar</title>
 </head>
 <body>
     <nav class="nav-bar">
@@ -85,68 +85,93 @@
         <section class="main-content">
             <div class="component-container">
                 <div class="component-title">
-                    Avatar
+                    Snackbar
                 </div>
                 <div class="component-info">
-                    Avatar is used show images of profiles.<br/>
-                    <span class="info">variants are: Image | Letter</span>
+                    Snackbars are often used as tooltips/popups to
+                    show a message at the bottom of the screen.
                 </div>
                 <div class="divider"></div>
                 <div class="component-content">
                     <div class="component-title component-content-title">
-                       Image Alerts:
+                        Snackbar with Text only:
                     </div>
-                    <div class="component-info">
-                        Image alert comes with three varient based on size<br/>
-                        <span class="info">'avatar-lg' | 'avatar-md' | 'avatar-sm'</span>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-lg"/>
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-md"/>
-                        <img src="../../resource/avatar/avatar-icon.png" alt="avatar-1"class="avatar avatar-sm"/>
+                    <div class="component-content-section fixed bg-charcoal-white">
+                        <div class="snack-bar-wrapper">
+                            <div class="snack-bar fixed-bottom show">
+                                <div class="snack-bar-content">Can't send photo. Retry in 5 seconds.</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="component-content-section">
                         <pre>
                             <code class="language-html">
-&lt;img 
-    src="../../resource/avatar/avatar-icon.png"
-    alt="avatar-1" 
-    class="avatar avatar-lg"/&gt;  
+&lt;div class="snack-bar-wrapper"&gt;
+    &lt;div class="snack-bar fixed-bottom show"&gt;
+        &lt;div class="snack-bar-content"&gt;
+            Can't send photo. Retry in 5 seconds.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
                             </code>
                         </pre>
                     </div>
                 </div>
                 <div class="divider"></div>
-                <!-- Letter Avatar -->
                 <div class="component-content">
                     <div class="component-title component-content-title">
-                        Letter Alerts:
+                       Snackbar with Text and Action:
                     </div>
-                    <div class="component-info">
-                        Letter alert comes with three varient based on size<br/>
-                        <span class="info">'avatar-lg' | 'avatar-md' | 'avatar-sm'</span>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <div class="avatar avatar-letter avatar-lg">A</div>
-                        <div class="avatar avatar-letter avatar-md">A</div>
-                        <div class="avatar avatar-letter avatar-sm">A</div>
-                    </div>
-                    <div class="component-content-section component-content-section-row">
-                        <div class="avatar avatar-letter avatar-lg">AM</div>
-                        <div class="avatar avatar-letter avatar-md">AM</div>
-                        <div class="avatar avatar-letter avatar-sm">AM</div>
-                    </div>
+                    <div class="component-content-section fixed bg-charcoal-white">
+                        <div class="snack-bar-wrapper">
+                            <div class="snack-bar fixed-bottom show">
+                                <div class="snack-bar-content">Can't send photo. Retry in 5 seconds.</div>
+                                <div class="snack-bar-action">
+                                    <button class="btn btn-sm white bg-charcoal-black">RETRY</button>
+                                    <button class="btn btn-round white bg-charcoal-black">
+                                        <i class="material-icons">
+                                            close
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                     <div class="component-content-section">
                         <pre>
                             <code class="language-html">
-&lt;div class="avatar avatar-letter avatar-lg">AM&lt;/div&gt;                            </code>
+&lt;div class="component-content-section
+fixed bg-charcoal-white"&gt;
+    &lt;div class="snack-bar-wrapper"&gt;
+        &lt;div class="snack-bar fixed-bottom show"&gt;
+            &lt;div class="snack-bar-content"&gt;
+                Can't send photo. Retry in 5 seconds.
+            &lt;/div&gt;
+            &lt;div class="snack-bar-action"&gt;
+                &lt;button 
+                    class="btn btn-sm white
+                        bg-charcoal-black"&gt;
+                    RETRY
+                &lt;/button&gt;
+                &lt;button
+                    class="btn btn-round 
+                        white bg-charcoal-black"&gt;
+                    &lt;i class="material-icons"&gt;
+                        close
+                    &lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                            </code>
                         </pre>
                     </div>
                 </div>
             </div>
         </section>
     </div>        
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
 </body>
 </html>

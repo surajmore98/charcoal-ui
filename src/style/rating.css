@@ -1,0 +1,15 @@
+.rating-wrapper {
+    padding: 0.5rem;
+    width: fit-content;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rating-icon {
+    cursor: pointer;
+    color: var(--charcoal-black);
+}
+
+.rating-wrapper .fill {
+    color: var(--warning);
+}

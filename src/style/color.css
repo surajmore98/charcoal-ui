@@ -1,6 +1,6 @@
 :root {
     --charcoal-black: #1b1b1b;
-    --charcoal-gray: rgb(119, 119, 119);
+    --charcoal-gray: #777777;
     --charcoal-white: #f5f5f5;
     --white: #ffffff;
     --error-dark: #5F2120;
@@ -91,6 +91,7 @@
     background-color: var(--charcoal-white-light);
 }
 
+
 /* color classes */
 
 .charcoal-black {
@@ -139,50 +140,4 @@
 
 .success {
     color: var(--success);
-}
-
-/* border color classes */
-
-.border-charcoal-black {
-    border-color: var(--charcoal-black);
-}
-
-.border-charcoal-gray {
-    border-color: var(--charcoal-gray);
-}
-
-.border-charcoal-white {
-    border-color: var(--charcoal-white);
-}
-
-.border-error-dark {
-    border-color: var(--error-dark);
-}
-
-.border-error {
-    border-color: var(--error);
-}
-
-.border-warning-dark {
-    border-color: var(--warning-dark);
-}
-
-.border-warning {
-    border-color: var(--warning);
-}
-
-.border-info-dark {
-    border-color: var(--info-dark);
-}
-
-.border-info {
-    border-color: var(--info);
-}
-
-.border-success-dark {
-    border-color: var(--success-dark);
-}
-
-.border-success {
-    border-color: var(--success);
 }

@@ -1,0 +1,38 @@
+.snack-bar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.snack-bar {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    z-index: 1;
+    background-color: var(--charcoal-black);
+}
+
+.snack-bar-wrapper .show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.fixed-bottom {
+    position: absolute;
+    bottom: 10px;
+}
+
+.snack-bar-content {
+    color: var(--charcoal-white);
+    flex: 1 1 200px;
+}
+
+.snack-bar-action {
+    display: flex;
+    justify-content: space-around;
+}

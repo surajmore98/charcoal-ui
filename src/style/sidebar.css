@@ -1,7 +1,6 @@
 .side-bar {
     background-color: var(--charcoal-black-light);
     border: 0;
-    width: 25vw;
     min-height: 85vh;
     overflow-y: auto;
     margin: 0;

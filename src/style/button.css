@@ -16,8 +16,7 @@
 }
 
 .btn:hover {
-    filter: brightness(80%);
-    box-shadow: 0 0.25rem 0.25rem var(--charcoal-black-light);
+    filter: brightness(50%);
 }
 
 .btn-outline {
