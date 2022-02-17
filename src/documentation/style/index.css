@@ -7,8 +7,9 @@ body {
 }
 
 .container {
-    display: flex;
-    min-height: 85vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: 100vh;
 }
 
 .main-content {
@@ -16,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 85vh;
-    min-width: 75vw;
 }
 
 .main-content-center {
@@ -61,24 +61,6 @@ body {
     margin: 1rem 0;
 }
 
-/* .doc-content {
-    padding: 1rem 0 1rem 2rem ;
-    width: 75vw;
-    margin: 0.5rem 0;
-}
-
-.doc-content-section {
-    margin: 1rem 0;
-    position: relative;
-    padding: 0 2rem;
-    width: 50%;
-    border: 2px solid var(--charcoal-black-light)
-}
-
-.doc-content-code {
-    margin: 0;
-} */
-
 .component-container {
     padding: 0.5rem 1rem;
 }
@@ -105,7 +87,7 @@ body {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.5px;
     padding: 0.5rem;
     padding-left: 1rem;
 }
@@ -119,9 +101,9 @@ body {
 }
 
 .component-content-section {
-    margin: 0.5rem 1rem;
     padding: 1rem;
-    width: 50%;
+    position: relative;
+    margin: 0.5rem 1rem;
     border: 1px solid var(--charcoal-white);
 }
 
@@ -130,4 +112,31 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.component-content .fixed {
+    height: 20rem;
+}
+
+.component-container-section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.border {
+    border: 2px solid var(--charcoal-white);
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--charcoal-white);
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .container {
+        grid-template-columns: 35% 65%;
+    }
 }

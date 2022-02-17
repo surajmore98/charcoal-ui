@@ -1,7 +1,6 @@
 @import url("alert.css");
 @import url("avatar.css");
 @import url("badge.css");
-@import url("border.css");
 @import url("button.css");
 @import url("card.css");
 @import url("color.css");
@@ -9,6 +8,14 @@
 @import url("font.css");
 @import url("image.css");
 @import url("input.css");
-@import url("margin.css");
 @import url("navbar.css");
+@import url("rating.css");
 @import url("sidebar.css");
+@import url("snack-bar.css");
+
+/* text utility classes */
+@import url("../style/utility/border.css");
+@import url("../style/utility/grid.css");
+@import url("../style/utility/margin.css");
+@import url("../style/utility/padding.css");
+@import url("../style/utility/text.css");

@@ -1,0 +1,93 @@
+/* header */
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.875rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+h6 {
+    font-size: 0.625rem;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+/* font-size */
+
+.font-sm {
+    font-size: 0.625rem;
+}
+
+.font-md {
+    font-size: 0.75rem;
+}
+
+.font {
+    font-size: 0.875rem;
+}
+
+.font-lg {
+    font-size: 1rem;
+}
+
+.font-xl {
+    font-size: 1.25rem;
+}
+
+.font-xxl {
+    font-size: 1.5rem;
+}
+
+/* font weight */
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-semi-bold {
+    font-weight: 500;
+}
+
+/* vertical text align */
+
+.text-top {
+    vertical-align: top;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.text-bottom {
+    vertical-align: bottom;
+}
+
+/* Horizontal text align */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

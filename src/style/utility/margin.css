@@ -1,0 +1,103 @@
+.m0 {
+    margin: 0;
+}
+
+.m-sm {
+    margin: 0.25rem;
+}
+
+.m-md {
+    margin: 0.5rem;
+}
+
+.m-lg {
+    margin: 0.75rem;
+}
+
+.m-xl {
+    margin: 1rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt-sm {
+    margin-top: 0.25rem;
+}
+
+.mt-md {
+    margin-top: 0.5rem;
+}
+
+.mt-lg {
+    margin-top: 0.75rem;
+}
+
+.mt-xl {
+    margin-top: 1rem;
+}
+
+.mr0 {
+    margin-right: 0;
+}
+
+.mr-sm {
+    margin-right: 0.25rem;
+}
+
+.mr-md {
+    margin-right: 0.5rem;
+}
+
+.mr-lg {
+    margin-right: 0.75rem;
+}
+
+.mr-xl {
+    margin-right: 1rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mb-sm {
+    margin-bottom: 0.25rem;
+}
+
+.mb-md {
+    margin-bottom: 0.5rem;
+}
+
+.mb-lg {
+    margin-bottom: 0.75rem;
+}
+
+.mb-xl {
+    margin-bottom: 1rem;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.ml-sm {
+    margin-left: 0.25rem;
+}
+
+.ml-md {
+    margin-left: 0.5rem;
+}
+
+.ml-lg {
+    margin-left: 0.75rem;
+}
+
+.ml-xl {
+    margin-left: 1rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
