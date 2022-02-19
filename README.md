@@ -4,7 +4,7 @@ A CSS framework for quick design and customize responsive sites.
 -------------------
 ## Documentation
 
-For full documentation, visit [charcoal-ui.com](https://charcoal-ui.netlify.app/src/index.html).
+For full documentation, visit [charcoal-ui.com](https://charcoal-ui.netlify.app).
 
 ## Quick install
 
