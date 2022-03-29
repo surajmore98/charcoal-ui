@@ -7,7 +7,6 @@
     height: 5rem;
     margin: 0;
 }
-
 .logo {
     cursor: pointer;
     padding: 0.25rem;
@@ -23,7 +22,6 @@
     color: var(--charcoal-white);
     font-family: 'Coarse Rounded';
 }
-
 .logo-icon {
     display: flex;
     align-items: center;
