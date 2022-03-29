@@ -12,8 +12,10 @@
     display: flex;
     align-items: center;
     font-size: 1.25rem;
-    font-weight: 400;
-    padding: 0.5rem 0;
+    font-weight: 700;
+    padding: 0.5rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
 }
 
 .modal-divider {
@@ -24,15 +26,17 @@
 
 .modal-content {
     font-size: 1rem;
+    padding: 1rem 0.5rem;
 }
 
 .modal-action {
     display: flex;
     justify-content: flex-start;
+    padding: 0.5rem;
 }
 
 .modal-square-border {
-    border: 1px solid var(--charcoal-gray);
+    border: 2px solid var(--charcoal-black-light);
 }
 
 .modal-rounded {
@@ -40,7 +44,6 @@
 }
 
 .modal-horizontal-md {
-    height: 8rem;
     width: 16rem;
     top: 45%;
     left: 45%;
@@ -55,7 +58,6 @@
 }
 
 .modal-horizontal-full-width {
-    height: 8rem;
     width: 80%;
     top: 45%;
     left: 10%;
