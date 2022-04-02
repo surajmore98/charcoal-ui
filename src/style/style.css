@@ -14,6 +14,7 @@
 @import url("rating.css");
 @import url("sidebar.css");
 @import url("snack-bar.css");
+@import url("slider.css");
 
 /* text utility classes */
 @import url("../style/utility/border.css");
