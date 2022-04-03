@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../documentation/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Charcoal UI | Navbar</title>
+</head>
+<body>
+    <nav class="nav-bar bg-charcoal-black white">
+        <ul class="nav-action">
+            <li class="logo" id="menu">
+                <a href="../../../../index.html" class="logo-text">Charcoal</a>
+            </li>
+        </ul>
+        <ul class="nav-action ml-auto">
+            <li class="nav-action-item"><a class="nav-action-text" href="./alert.html">Components</a></li>
+            <li class="nav-action-item"><a class="nav-action-text" href="https://github.com/surajmore98/charcoal-ui">Github</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="side-bar" id="#sideBar">
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Get Started</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="../install.html">Install</a>
+                </li>
+            </ul>
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Utilities</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="../utility/text.html">Typography</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="../utility/margin.html">Margin</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="../utility/padding.html">Padding</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="../utility/color.html">Color</a>
+                </li>
+            </ul>
+            <ul class="side-bar-section">
+                <li class="side-bar-header">
+                    <a>Components</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./button.html">Button</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./card.html">Card</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./image.html">Image</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./input.html">Input</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./rating.html">Rating</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./snack-bar.html">Snack Bar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./modal.html">Modal</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./list.html">List</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./navbar.html">Navbar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./slider.html">Slider</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="component-container">
+                <div class="component-title">
+                    Navbar
+                </div>
+                <div class="component-info">
+                    <p>Navigation bar is used to navigate between page in web app.</p>
+                    <span class="info">variants are: standard | with hamburger menu | with sub menu</span>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                       Standard:
+                    </div>
+                    <div class="component-info">
+                        this varient consists logo and nav-links.
+                    </div>
+                    <div class="component-content-section">
+                        <nav class="nav-bar bg-info">
+                            <ul class="logo">
+                                <li id="menu">
+                                    <a href="#" class="logo-text white">Logo Text</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-action ml-auto">
+                                <li class="nav-action-item white">
+                                    <a  href="#">
+                                        Nav Action 1
+                                    </a>
+                                </li>
+                                <li class="nav-action-item white">
+                                    <a  href="#">
+                                        Nav Action 2
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;nav class="nav-bar bg-info white"&gt;
+    &lt;ul class="logo"&gt;
+        &lt;li id="menu"&gt;
+            &lt;a href="#" class="logo-text white"&gt;Logo Text&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul class="nav-action ml-auto"&gt;
+        &lt;li class="nav-action-item white"&gt;
+            &lt;a  href="#"&gt;
+                Nav Action 1
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-action-item white"&gt;
+            &lt;a  href="#"&gt;
+                Nav Action 2
+            &lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;       
+                         </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="component-content">
+                    <div class="component-title component-content-title">
+                        Navigation With Ham-Burger Menu:
+                    </div>
+                    <div class="component-info">
+                        Navigation With Ham-burger Menu varient consists logo, nav-links and hamburger menu.
+                    </div>
+                    <div class="component-content-section">
+                        <nav class="nav-bar bg-info">
+                            <ul class="logo">
+                                <li id="menu">
+                                    <a href="#" class="logo-text white">Logo Text</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-action ml-auto">
+                                <li class="nav-action-item white">
+                                    <a href="#">
+                                        Nav Action 1
+                                    </a>
+                                </li>
+                                <li class="nav-action-item white">
+                                    <a href="#">
+                                        Nav Action 2
+                                    </a>
+                                </li>
+                                <li class="nav-action-item">
+                                    <button class="btn btn-round bg-info white badge-wrapper" id="ham">
+                                        <i class="material-icons">
+                                            menu
+                                        </i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="nav-menu bg-white">
+                            <li><a class="nav-menu-link bg-white charcoal-black"> Action 1</a></li>
+                            <li><a class="nav-menu-link bg-white charcoal-black">Action 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="component-content-section">
+                        <pre>
+                            <code class="language-html">
+&lt;nav class="nav-bar bg-info"&gt;
+&lt;ul class="logo"&gt;
+    &lt;li id="menu"&gt;
+        &lt;a href="#" class="logo-text white"&gt;Logo Text&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="nav-action ml-auto"&gt;
+    &lt;li class="nav-action-item white"&gt;
+        &lt;a href="#"&gt;
+            Nav Action 1
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-action-item white"&gt;
+        &lt;a href="#"&gt;
+            Nav Action 2
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-action-item"&gt;
+        &lt;button class="btn btn-round bg-info white badge-wrapper" id="ham"&gt;
+            &lt;i class="material-icons"&gt;
+                menu
+            &lt;/i&gt;
+        &lt;/button&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;ul class="nav-menu bg-white"&gt;
+&lt;li&gt;&lt;a class="nav-menu-link bg-white charcoal-black"&gt; Action 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="nav-menu-link bg-white charcoal-black"&gt;Action 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+                            </code>
+                        </pre>
+                    </div>
+            </div>
+            <div class="divider"></div>
+            <div class="component-content">
+                <div class="component-title component-content-title">
+                    Navigation With Sub Menu:
+                </div>
+                <div class="component-info">
+                    Navigation With Sub Menu varient consists logo, nav-links and sub-menus for respective nav-links.
+                </div>
+                <div class="component-content-section">
+                    <nav class="nav-bar bg-info">
+                        <ul class="logo">
+                            <li id="menu">
+                                <a href="#" class="logo-text white">Logo Text</a>
+                            </li>
+                        </ul>
+                        <ul class="nav-action ml-auto">
+                            <li class="sub-nav-menu">
+                                <a class="nav-action-item white">
+                                    Nav Action 1
+                                </a>
+                                <ul class="sub-menu-list bg-white charcoal-black">
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-nav-menu">
+                                <a class="nav-action-item white">
+                                    Nav Action 1
+                                </a>
+                                <ul class="sub-menu-list bg-white charcoal-black">
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                    <li class="sub-menu-item"><a href="#">Sub Menu Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="component-content-section">
+                    <pre>
+                        <code class="language-html">
+&lt;nav class="nav-bar bg-info"&gt;
+    &lt;ul class="logo"&gt;
+        &lt;li id="menu"&gt;
+            &lt;a href="#" class="logo-text white"&gt;Logo Text&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul class="nav-action ml-auto"&gt;
+        &lt;li class="sub-nav-menu"&gt;
+            &lt;a class="nav-action-item white"&gt;
+                Nav Action 1
+            &lt;/a&gt;
+            &lt;ul class="sub-menu-list bg-white charcoal-black"&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="sub-nav-menu"&gt;
+            &lt;a class="nav-action-item white"&gt;
+                Nav Action 1
+            &lt;/a&gt;
+            &lt;ul class="sub-menu-list bg-white charcoal-black"&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="sub-menu-item"&gt;&lt;a href="#"&gt;Sub Menu Item&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+                        </code>
+                    </pre>
+                </div>
+        </div>
+        </section>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../../js/index.js"></script>
+</body>
+</html>

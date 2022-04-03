@@ -1,0 +1,83 @@
+.modal {
+    box-shadow: 0 0.25rem 0.5rem var(--charcoal-black-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.modal-divider {
+    background-color: var(--charcoal-black-light);
+    height: 2px;
+    margin: 2px;
+}
+
+.modal-content {
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+.modal-action {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+
+.modal-square-border {
+    border: 2px solid var(--charcoal-black-light);
+}
+
+.modal-rounded {
+    border-radius: 0.25rem;
+}
+
+.modal-horizontal-md {
+    width: 16rem;
+    top: 45%;
+    left: 45%;
+}
+
+.modal-horizontal-lg {
+    height: 12rem; 
+    width: 24rem;
+    top: 30%;
+    left: 30%;
+    padding: 1rem;
+}
+
+.modal-horizontal-full-width {
+    width: 80%;
+    top: 45%;
+    left: 10%;
+}
+
+.modal-vertical-md {
+    height: 16rem;
+    width: 12rem;
+    top: 45%;
+    left: 45%;
+}
+
+.modal-vertical-lg {
+    height: 24rem;
+    width: 20rem;
+    top: 30%;
+    left: 30%;
+}
+
+.modal-vertical-md .modal-content,
+.modal-vertical-lg .modal-content {
+    flex-grow: 1;
+}

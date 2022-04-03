@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../../documentation/style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/dark.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Charcoal UI | Image</title>
+    <title>Charcoal UI | Sliders</title>
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar bg-charcoal-black white">
         <ul class="nav-action">
             <li class="logo" id="menu">
                 <a href="../../../index.html" class="logo-text">Charcoal</a>
@@ -84,36 +84,59 @@
                     <a class="side-bar-link" href="./modal.html">Modal</a>
                 </li>
                 <li class="side-bar-content">
-                    <a class="side-bar-link" href="list.html">List</a>
+                    <a class="side-bar-link" href="./list.html">List</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./navbar.html">Navbar</a>
+                </li>
+                <li class="side-bar-content">
+                    <a class="side-bar-link" href="./slider.html">Slider</a>
                 </li>
             </ul>
         </aside>
         <section class="main-content">
             <div class="component-container">
                 <div class="component-title">
-                    Image
+                    Slider
                 </div>
                 <div class="component-info">
-                    <p><span class="info">.image</span> is fully responsive utility class</p>
+                    Sliders areused in input as range.
+                    two varient are there: <span class="info"> round </span>, <span class="info"> square </span>.
                 </div>
                 <div class="divider"></div>
                 <div class="component-content">
                     <div class="component-title component-content-title">
-                       Image:
+                        Round Slider:
                     </div>
-                    <div class="component-content-section">
-                        <img 
-                         src="https://picsum.photos/300/300"
-                         alt="card-image"
-                         class="image" />
+                    <div class="component-content-section bg-charcoal-white">
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-info info-dark slider-round" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-warning warning-dark slider-round" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-error error-dark slider-round" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-success success-dark slider-round" type="range" value="50"/>
+                        </div>
                     </div>
                     <div class="component-content-section">
                         <pre>
                             <code class="language-html">
-&lt;img 
-src="https://picsum.photos/300/300"
-alt="card-image"
-class="image" /&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-info info-dark slider-round" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-warning warning-dark slider-round" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-error error-dark slider-round" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-success success-dark slider-round" type="range" value="50"/&gt;
+&lt;/div&gt;
                             </code>
                         </pre>
                     </div>
@@ -121,87 +144,37 @@ class="image" /&gt;
                 <div class="divider"></div>
                 <div class="component-content">
                     <div class="component-title component-content-title">
-                       Round Square Image:
+                       Square Slider:
                     </div>
-                    <div class="component-content-section">
-                        <img 
-                            src="https://picsum.photos/300/300"
-                            alt="card-image"
-                            class="image image-round-square" />                        
-                    </div>
-                    <div class="component-content-section">
-                        <pre>
-                            <code class="language-html">
-&lt;img 
-src="https://picsum.photos/300/300"
-alt="card-image"
-class="image image-round-square" /&gt;
-                            </code>
-                        </pre>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="component-content">
-                    <div class="component-title component-content-title">
-                       Round Image:
-                    </div>
-                    <div class="component-content-section">
-                        <img 
-                         src="https://picsum.photos/300/300"
-                         alt="card-image"
-                         class="image image-round" />
+                    <div class="component-content-section bg-charcoal-white">
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-info info-dark" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-warning warning-dark" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-error error-dark" type="range" value="50"/>
+                        </div>
+                        <div class="slider-wrappar m-xl">
+                            <input class="slider-input bg-success success-dark" type="range" value="50"/>
+                        </div>
                     </div>
                     <div class="component-content-section">
                         <pre>
                             <code class="language-html">
-&lt;img 
-src="https://picsum.photos/300/300"
-alt="card-image"
-class="image image-round" /&gt;
-                            </code>
-                        </pre>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="component-content">
-                    <div class="component-title component-content-title">
-                       Medium Size Image:
-                    </div>
-                    <div class="component-content-section">
-                        <img 
-                            src="https://picsum.photos/300/300"
-                            alt="card-image"
-                            class="image image-half" />                        
-                    </div>
-                    <div class="component-content-section">
-                        <pre>
-                            <code class="language-html">
-&lt;img 
-src="https://picsum.photos/300/300"
-alt="card-image"
-class="image image-half" /&gt;
-                            </code>
-                        </pre>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="component-content">
-                    <div class="component-title component-content-title">
-                       Quarter Size Image:
-                    </div>
-                    <div class="component-content-section">
-                        <img 
-                            src="https://picsum.photos/300/300"
-                            alt="card-image"
-                            class="image image-quarter" />                        
-                    </div>
-                    <div class="component-content-section">
-                        <pre>
-                            <code class="language-html">
-&lt;img 
-src="https://picsum.photos/300/300"
-alt="card-image"
-class="image image-quarter" /&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-info info-dark" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-warning warning-dark" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-error error-dark" type="range" value="50"/&gt;
+&lt;/div&gt;
+&lt;div class="slider-wrappar m-xl"&gt;
+    &lt;input class="slider-input bg-success success-dark" type="range" value="50"/&gt;
+&lt;/div&gt;
                             </code>
                         </pre>
                     </div>

@@ -8,10 +8,13 @@
 @import url("font.css");
 @import url("image.css");
 @import url("input.css");
+@import url("list.css");
+@import url("modal.css");
 @import url("navbar.css");
 @import url("rating.css");
 @import url("sidebar.css");
 @import url("snack-bar.css");
+@import url("slider.css");
 
 /* text utility classes */
 @import url("../style/utility/border.css");
