@@ -7,28 +7,22 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 20% 80%;
     min-height: 100vh;
     position: relative;
     top: 3.5rem;
-}
-
-.nav-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 .main-content {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    min-height: 85vh;
+    min-height: 100vh;
+    margin-left: 20vw;
 }
 
 .main-content-center {
+    margin-left: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -149,12 +143,26 @@ body {
     background-color: var(--info);
 }
 
+.active-link {
+    background-color: var(--charcoal-gray);
+    color: var(--charcoal-white);
+    border-radius: 0.25rem;
+}
+
 @media only screen and (max-width: 700px) {
     html {
         font-size: 12px;
     }
     
-    .container {
-        grid-template-columns: 35% 65%;
+    .main-content {
+        margin-left: 30vw;
+    }
+
+    .main-content-center {
+        margin-left: 0;
+    }
+
+    .side-bar {
+        width: 30vw;
     }
 }

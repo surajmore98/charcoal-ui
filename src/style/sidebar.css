@@ -1,9 +1,11 @@
 .side-bar {
     background-color: var(--charcoal-black-light);
     border: 0;
-    min-height: 85vh;
+    height: 91vh;
     overflow-y: auto;
     margin: 0;
+    position: fixed;
+    width: 20vw;
 }
 
 .side-bar-section {
