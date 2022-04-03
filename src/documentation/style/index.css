@@ -21,6 +21,8 @@ body {
 }
 
 .main-content-center {
+    margin-left: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -154,6 +156,10 @@ body {
     
     .main-content {
         margin-left: 30vw;
+    }
+
+    .main-content-center {
+        margin-left: 0;
     }
 
     .side-bar {
