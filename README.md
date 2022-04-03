@@ -35,6 +35,10 @@ Components support given by Charcoal-UI are:
 - Input
 - Rating
 - SnackBar
+- Modal
+- List
+- Navbar
+- Slider
 
 ## Utility
 
