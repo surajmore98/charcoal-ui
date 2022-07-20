@@ -4,7 +4,7 @@ A CSS framework for quick design and customize responsive sites.
 -------------------
 ## Documentation
 
-For full documentation, visit [charcoal-ui.com](https://charcoal-ui.netlify.app).
+For full documentation, visit [charcoal-ui.com](https://charcoalxui.netlify.app/).
 
 ## Quick install
 
@@ -13,7 +13,7 @@ you can import the CSS file into your project using this snippet:
 ### Import
 
 ```sh
-@import 'https://charcoal-ui.netlify.app/src/style/style.css'
+@import 'https://charcoalxui.netlify.app/src/style/style.css'
 ```
 
 ## Browser Support
